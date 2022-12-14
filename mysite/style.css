@@ -1,0 +1,120 @@
+@import url('https://fonts.cdnfonts.com/css/garamond" rel="stylesheet"');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Garamond', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #f1abc0;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #f4f1f5;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Garamond', serif;
+    font-size: 1.5rem;
+    color: #4f041b;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    text-align: center;
+    flex-basis: auto;
+}
+
+.myImg {
+    margin-top: 1em;
+    padding-left: 20px;
+    flex-basis: 100px;
+
+}
+
+.knowledge {
+    display: flex;
+    justify-content: right;
+    font-family: 'Garamond', serif;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #4f041b;
+    padding-left: 20px;
+}
+
+.text {
+    font-family: 'Garamond', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: #352e36;
+}
+
+h2 {
+    text-align: center;
+    color: #4f041b;
+}
+
+h1 {
+    color: #4f041b;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #f1abc0;
+    flex: 0 0 auto;
+}
+
